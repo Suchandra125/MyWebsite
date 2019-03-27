@@ -1,0 +1,14 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri":"mysql://root:@localhost/flask",
+    "prod_uri": "mysql://root:@localhost/flask",
+    "fb_url": "http://facebook.com/RoxoR",
+    "gh_url": "http://github.com/RoxoR",
+    "tw_url": "http://twitter.com/RoxoR",
+    "gmail_user": "roxor1520@gmail.com",
+    "gmail_passward": "suchu!4#",
+    "about_text": "Hi my name is Suchandra and I create programming tutorials and I am a good boy"
+  }
+}

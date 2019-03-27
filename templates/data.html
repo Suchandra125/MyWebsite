@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{url_for('static' , filename = 'img/3.jpg')}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-20 mx-auto">
+          <div class="site-heading">
+            <h1>Books & Tutorial</h1>
+            <span class="subheading">Code Never Lies <br /> But Comments Do</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="container-fluid">
+
+    <div class="row my-4 mx-4">
+
+        <div class="col-md-6 col-lg-4 text-center">
+            <img class="img-circle" src="/static/img/logo1.jpg" width="140" height="140">
+            <h2>Book: Basic to learn python</h2>
+            <p>
+                In this book, you will learn code python programming from native to expert.
+            </p>
+            <p><a href="https://drive.google.com/open?id=0B_XvVhBu-3PsUnkwRlFWcE1JNlRiWXFsUEczdDNXQmNaSnRR" download="Basic_Python.pdf"><button class="btn btn-outline-danger">Download &raquo;</button></a></p>
+        </div>
+
+        <div class="col-md-6 col-lg-4 text-center">
+            <img class="img-circle" src="/static/img/logo1.jpg" width="140" height="140">
+            <h2>Book: Machine Learning with Python</h2>
+            <p>
+                In this absolute beginner book, It contain basic framework, algorithm and mathematics.
+            </p>
+            <p><a href="https://drive.google.com/file/d/1b_CuTKctWjW7NIfZO0rBngkY0ivdiDv8/view?usp=sharing" download="Machine_learning_with_python.pdf"><button class="btn btn-outline-danger">Download &raquo;</button></a></p>
+        </div>
+
+
+        <div class="col-md-6 col-lg-4 text-center">
+            <img class="img-circle" src="/static/img/logo1.jpg" width="140" height="140">
+            <h2>Book: Respberry Pi and Python</h2>
+            <p>
+                This is one of the treading technology to work with embedded system.
+            </p>
+            <p><a href="https://drive.google.com/file/d/18c2orFfhuDeKNBRErzoBj_mQHus_OAS_/view?usp=sharing" download="Respberry_Pi_with_Python.pdf"><button class="btn btn-outline-danger">Download &raquo;</button></a></p>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
