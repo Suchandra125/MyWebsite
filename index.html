@@ -1,0 +1,54 @@
+<!--jinja.pocco.org for inheritance or layout.html
+
+    title, header, body, footer. i.e. all common contain, formAT can be include in layout.html-->
+
+{% extends "layout.html" %}
+{% block body %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{url_for('static' , filename = 'img/img1.jpg')}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-20 mx-auto">
+          <div class="site-heading">
+            <h1>Programming Tutorial</h1>
+            <span class="subheading">The way to Artificial Future</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <div class="post-preview>
+            <h1 class="post-title">
+              <font size="6.8">
+                  <b>Python Developers Survey 2018.</b>
+              </font>
+
+            </h1>
+            <p class="post-meta"><i>Posted by Jetbrains on February 03, 2019</i></p>
+            <p><a href="https://www.jetbrains.com/research/python-developers-survey-2018/" ><button class="btn btn-outline-danger">Read More &raquo;</button></a></p>
+        </div>
+        <b><hr></b>
+
+        <div class="post-preview>
+            <h1 class="post-title">
+            <font size="6.8">
+              <b>Incredible Growth in Pyhton.</b>
+            </font>
+            </h1>
+            <p class="post-meta"><i>Posted by David Robinson on September 6, 2017</i></p>
+            <p><a href="https://stackoverflow.blog/2017/09/06/incredible-growth-python/" ><button class="btn btn-outline-danger">Read More &raquo;</button></a></p>
+        </div>
+        <hr>
+    </div>
+  </div>
+</div>
+{% endblock %}
